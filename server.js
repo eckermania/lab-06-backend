@@ -21,7 +21,7 @@ app.get('/location', (request, response) => {
                 search_query: request.query.data,
                 formatted_query: result.body.results[0].formatted_address,
                 latitude: result.body.results[0].geometry.location.lat,
-                longitude: result.body.results[0]. goemetry.location.lng
+                longitude: result.body.results[0]. geometry.location.lng
             }
             response.send(locationResult);
         })
