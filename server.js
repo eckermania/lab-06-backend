@@ -3,10 +3,11 @@
 const express = require('express');
 const superagent = require('superagent');
 const cors = require('cors');
+const app = express();
 
 app.use(cors());
 
-const app = express();
+
 require('dotenv').config();
 
 const PORT = 3000;

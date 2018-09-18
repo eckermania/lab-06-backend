@@ -2,7 +2,7 @@
   "name": "lab-06-backend",
   "version": "1.0.0",
   "description": "lab 6 for 301",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
   },
